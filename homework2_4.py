@@ -15,5 +15,5 @@ def get_cats_info(path):
         print("Сталася помилка при обробці файлу:")
     return cats_info
 
-cats_info = get_cats_info("d:/домашня робота номер 4/cats.txt")
+cats_info = get_cats_info("cats.txt")
 print(cats_info)
